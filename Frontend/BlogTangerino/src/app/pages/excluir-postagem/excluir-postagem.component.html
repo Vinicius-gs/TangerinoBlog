@@ -1,6 +1,5 @@
-
 <div class ="cabecalho">
-    <h1>Nova Postagem</h1>
+    <h1>Excluindo Postagem</h1>
 
 </div>
 <div class="container">
@@ -11,17 +10,10 @@
             <input type="text" placeholder="Titulo">             
         </div>
         <div>
-            <span>SubTitulo: </span>
-            <input type="text" placeholder="SubTitulo">             
-        </div>
-        <div>
             <span>Autor: </span>
             <input type="text" placeholder="Autor">             
         </div>
-        <div>
-            <span>Hora da Postagem: </span>
-            <input  type="time" >        
-        </div>
+
         <div>
             <span>Categoria: </span> 
             <select >
@@ -32,10 +24,6 @@
                 <option value="5">Política</option>
             </select>
         </div>
-        <div>
-            <span>Conteudo: </span>
-            <textarea id="story" name="story" rows="7" cols="1000"></textarea>      
-        </div>
-        <button class="botao_foto_blog" (click)="salvar()" >Adicionar</button>
+        <button class="botao_foto_blog" (click)="excluir()" >Excluir</button>
     </form>
 </div>

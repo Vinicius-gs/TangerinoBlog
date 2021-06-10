@@ -7,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AdicionarPostagemComponent implements OnInit {
 
+
   constructor() { }
 
   ngOnInit(): void {
   }
-
+  salvar() {
+    alert('Publicado com sucesso!');
+  }
 }
