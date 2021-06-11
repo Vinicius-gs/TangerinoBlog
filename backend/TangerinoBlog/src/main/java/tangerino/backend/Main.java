@@ -13,9 +13,6 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		Date data = new Date();
-		DateFormat dfm = DateFormat.getDateInstance(DateFormat.SHORT);
-		String dataAtual = dfm.format(data);
 
 		System.setProperty("server.servlet.context-path", "/blogTangerino");
 		SpringApplication.run(Main.class, args);
